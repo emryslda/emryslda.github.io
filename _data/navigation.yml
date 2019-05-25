@@ -1,12 +1,10 @@
 # main links
 main:
-  - title: "Home"
-    url: https://emryslda.github.io/
   - title: "About"
-    url: https://emryslda.github.io/
+    url: /About
   - title: "Projects"
-    url: https://emryslda.github.io/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+    url: /Projects
+  - title: "Archive"
+    url: /Archive
+
+
