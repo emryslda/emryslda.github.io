@@ -114,7 +114,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:ludovico.diantonio@gmail.com
+      #url: mailto:ludovico.diantonio@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
     - label: "  Linkedin"
