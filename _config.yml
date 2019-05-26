@@ -260,6 +260,10 @@ compress_html:
   ignore:
     envs: development
 
+# Collections
+collections:
+  category:
+    output: true
 
 # Defaults
 defaults:
@@ -271,6 +275,14 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments:  true
       share: true
       related: true
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
+
+  
