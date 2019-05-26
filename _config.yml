@@ -260,10 +260,7 @@ compress_html:
   ignore:
     envs: development
 
-# Collections
-collections:
-  category:
-    output: true
+
 
 # Defaults
 defaults:
@@ -278,11 +275,6 @@ defaults:
       comments:  true
       share: true
       related: true
-  -
-    scope:
-      path: ""
-      type: category
-    values:
-      layout: "category"
+
 
   
