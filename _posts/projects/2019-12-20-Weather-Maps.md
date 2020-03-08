@@ -11,6 +11,8 @@ tags:
 
 
 Simple bash scripts to download the wetterzentrale top karten of GFS and ECMWF for Europe
+[Github repository][1]
+
 
 In order to download the latest available pictures simply run:
 {% highlight linenos %}
@@ -18,8 +20,8 @@ In order to download the latest available pictures simply run:
 {% endhighlight %}
 
 download the following codes:
-<p>></p>
-the *dwetter.sh* file contains:
+<p></p>
+the [*dwetter.sh*][2] file contains:
 {% highlight bash linenos %}
 #/bin/bash
 
@@ -86,7 +88,7 @@ while test $# -gt 0; do
 done
 {% endhighlight %}
 <p></p>
-the *model.sh* file contains:
+the [*model.sh*][3] file contains:
 {% highlight bash linenos %}
 #/bin/bash
 
@@ -135,7 +137,9 @@ done
 
 cd "${WD}
 {% endhighlight %}
-
+[1]: https://github.com/emryslda/Wetterzentrale_TopKarten_download
+[2]: https://github.com/emryslda/Wetterzentrale_TopKarten_download/blob/master/dwetter
+[3]: https://github.com/emryslda/Wetterzentrale_TopKarten_download/blob/master/model.sh
 
 <!-- Place this tag where you want the button to render. -->
 <a class="github-button" href="https://github.com/emryslda" aria-label="Follow @emrysda on GitHub">Follow @emryslda on Github</a>
