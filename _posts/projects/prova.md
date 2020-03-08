@@ -1,0 +1,49 @@
+---
+title: "HEC-HMS Modelling"
+categories:
+  - Projects
+tags:
+  - Java
+  - Python
+  - Jython
+---
+
+
+The **Hydrologic Modeling System** ([HEC-HMS](https://www.hec.usace.army.mil/software/hec-hms/)) is designed to simulate the
+complete  hydrologic  processes  of  watershed  systems.   It  is  a  concentrated
+model written in Java language which is born to simulate the discharge due
+to meteorological forcing. The use of this model from command line is limited, but can be performed. This guide will allow you to run a simulation from Linux terminal using a bash script.
+<p></p>
+Create the *compute.script* file with the following code:
+
+{% highlight linenos %}
+from hms.model.JythonHms import * 
+OpenProject("Project_name", "Path_to_project") 
+Compute("Run_name") 
+Exit(1)
+{% endhighlight %}
+
+fix the *Project_name*, *Path_to_project*, *Run_name* for your needs.
+Now create a run.sh file with the following code inside:
+
+{% highlight bash linenos %}
+#!/bin/bash
+#Created on 24 Apr 2019 15:45 
+#I used a simbolic link to /usr/local/bin ---command: 
+# ln -s path/to/hec-hms.sh  /usr/local/bin/hms41 
+#it lets you run the program from anywhere 
+PATH_HOME=/home/username
+#change the username with yours
+HEC_PATH=$PATH_HOME/HEC/hec-hms-41
+CP_PATH=$HEC_PATH/scripts
+hms41 -s $CP_PATH/compute.script
+{% endhighlight %}
+
+Once you have set the model you can run the model from the command line using:
+
+{% highlight bash linenos %}
+bash run.sh
+{% endhighlight %}
+
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/emryslda" aria-label="Follow @emrysda on GitHub">Follow @emryslda on Github</a>
