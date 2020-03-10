@@ -2,9 +2,12 @@
 main:
   - title: "About"
     url: /About
+  - title: "Publications"
+    url: /Publications
   - title: "Projects"
     url: /Projects
   - title: "Archive"
     url: /Archive
+
 
 
