@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dirt" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "Ludovico Di Antonio"
-  avatar           :  "img/profile.jpg"
+  avatar           :  "/img/profile.jpg"
   bio              : "MSc Student at LMAST (Atmospheric Science and Technology)"
   location         : "Abruzzo, Italy"
   email            : "ludovico.diantonio@gmail.com"
@@ -117,7 +117,7 @@ author:
       #url: mailto:ludovico.diantonio@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-    - label: "  Linkedin"
+    - label: "Linkedin"
       icon: "fab fa-linkedin"
       url: "https://it.linkedin.com/in/ludovico-di-antonio-149003172"
     - label: "GitHub"

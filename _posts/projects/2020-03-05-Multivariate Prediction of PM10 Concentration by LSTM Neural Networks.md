@@ -8,7 +8,7 @@ tags:
 ---
 
 
-**Title:** *Multivariate Prediction of PM 10 Concentration by LSTM Neural Networks*
+**Title:** *Multivariate Prediction of PM10 Concentration by LSTM Neural Networks*
 <p></p>
 
 **Conference Period:** *December 2019*
@@ -25,13 +25,20 @@ tags:
 **Authors**: Ludovico Di Antonio, A. Rosato, V. Colaiuda, A. Lombardi, B. Tomassetti and Massimo Panella
 <p></p>
 
-[IEEE XPLORE][1]
-[Research GAte][2]
 
-[1]: https://ieeexplore.ieee.org/document/9021929
+**[IEEE XPLORE][1]** **[ResearchGate][2]**
+
+
+[1]:  https://ieeexplore.ieee.org/document/9021929
+
+
 [2]: https://www.researchgate.net/publication/339767769_Multivariate_Prediction_of_PM_10_Concentration_by_LSTM_Neural_Networks
 
 
-
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
 <!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/emryslda" aria-label="Follow @emrysda on GitHub">Follow @emryslda on Github</a>
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/emryslda" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" aria-label="Follow @emryslda on GitHub">Follow @emryslda</a>
+
+
