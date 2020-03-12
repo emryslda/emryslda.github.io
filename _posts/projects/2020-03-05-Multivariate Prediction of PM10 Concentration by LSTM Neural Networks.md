@@ -2,6 +2,8 @@
 title: "Multivariate Prediction of PM10 Concentration by LSTM Neural Networks"
 categories:
   - Publications
+header:
+  og_image: /assets/images/og_image3.png
 tags:
   - Neural Networks
   - Environment

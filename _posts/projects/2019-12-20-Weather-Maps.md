@@ -2,6 +2,8 @@
 title: "Wetterzentrale TopKarten download"
 categories:
   - Projects
+header:
+  og_image: /assets/images/og_image1.png
 tags:
   - Bash
   - Java
