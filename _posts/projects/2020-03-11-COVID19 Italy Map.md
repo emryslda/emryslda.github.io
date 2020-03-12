@@ -2,6 +2,8 @@
 title: "COVID19 Italy Map"
 categories:
   - Projects
+header:
+  og_image: /assets/images/og_image.png
 tags:
   - Maps
   - COVID
