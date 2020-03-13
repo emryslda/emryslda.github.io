@@ -44,7 +44,7 @@ Data taken at: **[http://www.salute.gov.it][1]**
 <iframe src="/img/covid19.html"
     sandbox="allow-same-origin allow-scripts"
     width="150%"
-    height="820"
+    height="760"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
@@ -59,7 +59,7 @@ Number of deaths per region
 <iframe src="/img/covid19reg.html"
     sandbox="allow-same-origin allow-scripts"
     width="150%"
-    height="820"
+    height="760"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
