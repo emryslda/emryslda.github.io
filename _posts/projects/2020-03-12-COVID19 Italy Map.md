@@ -13,6 +13,19 @@ tags:
 <p></p>
 
 
+<iframe src="/img/covidmap.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="1280"
+    height="820"
+    scrolling="no"
+    seamless="seamless"
+    align="left"
+    frameborder="0">
+</iframe>
+
+Data taken at: **[https://github.com/pcm-dpc/COVID-19][3]**
+
+<p></p>
 
 <iframe src="/img/covid.html"
     sandbox="allow-same-origin allow-scripts"
@@ -26,6 +39,8 @@ tags:
 
 Data taken at: **[http://www.salute.gov.it][1]**
 
+<p></p>
+
 <iframe src="/img/covid19.html"
     sandbox="allow-same-origin allow-scripts"
     width="150%"
@@ -37,10 +52,12 @@ Data taken at: **[http://www.salute.gov.it][1]**
 
 Data taken at: **[https://github.com/pcm-dpc/COVID-19][2]**
 
+<p></p>
+
 
 [1]: http://www.salute.gov.it 
 [2]: https://github.com/pcm-dpc/COVID-19
-
+[3]: https://github.com/pcm-dpc/COVID-19
 <!-- Place this tag in your head or just before your close body tag. -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 <!-- Place this tag where you want the button to render. -->
