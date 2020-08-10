@@ -2,7 +2,7 @@
 main:
   - title: "About"
     url: /About
-    title: "Weather"
+  - title: "Weather"
     url: /Weather
   - title: "Publications"
     url: /Publications
