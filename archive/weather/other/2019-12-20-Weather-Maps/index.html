@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en"><!--
+ __  __                __                                     __
+/\ \/\ \              /\ \             __                    /\ \
+\ \ \_\ \   __  __    \_\ \      __   /\_\      __       ___ \ \ \/'\
+ \ \  _  \ /\ \/\ \   /'_` \   /'__`\ \/\ \   /'__`\    /'___\\ \ , <
+  \ \ \ \ \\ \ \_\ \ /\ \L\ \ /\  __/  \ \ \ /\ \L\.\_ /\ \__/ \ \ \\`\
+   \ \_\ \_\\/`____ \\ \___,_\\ \____\ _\ \ \\ \__/.\_\\ \____\ \ \_\ \_\
+    \/_/\/_/ `/___/> \\/__,_ / \/____//\ \_\ \\/__/\/_/ \/____/  \/_/\/_/
+                /\___/                \ \____/
+                \/__/                  \/___/
+
+Powered by Hydejack v9.0.4 <https://hydejack.com/>
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<head>
+  
+
+
+
+
+
+
+  
+    
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Wetterzentrale TopKarten download | Di Antonio Ludovico</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Wetterzentrale TopKarten download" />
+<meta name="author" content="<Ludovico> <Di Antonio>" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Simple bash scripts to download the wetterzentrale top karten of GFS and ECMWF for Europe Github repository" />
+<meta property="og:description" content="Simple bash scripts to download the wetterzentrale top karten of GFS and ECMWF for Europe Github repository" />
+<meta property="og:site_name" content="Di Antonio Ludovico" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-12-20T00:00:00+01:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Wetterzentrale TopKarten download" />
+<script type="application/ld+json">
+{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/img/pr.jpg"},"name":"<Ludovico> <Di Antonio>"},"mainEntityOfPage":{"@type":"WebPage","@id":"/archive/weather/other/2019-12-20-Weather-Maps/"},"url":"/archive/weather/other/2019-12-20-Weather-Maps/","author":{"@type":"Person","name":"<Ludovico> <Di Antonio>"},"headline":"Wetterzentrale TopKarten download","dateModified":"2020-12-23T10:19:07+01:00","description":"Simple bash scripts to download the wetterzentrale top karten of GFS and ECMWF for Europe Github repository","datePublished":"2019-12-20T00:00:00+01:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  
+
+  
+    <meta name="keywords" content="science,hiking">
+  
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Di Antonio Ludovico">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+<meta name="application-name" content="Di Antonio Ludovico">
+
+
+  <meta name="theme-color" content="rgb(1,1,1)">
+
+
+<meta name="generator" content="Hydejack v9.0.4" />
+
+
+<link rel="alternate" href="/archive/projects/2019-05-20-HEC-HMS/" hreflang="en">
+
+<link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Di Antonio Ludovico" />
+
+
+<link rel="shortcut icon"    href="/assets/icons/favicon.ico">
+<link rel="apple-touch-icon" href="/assets/icons/icon-192x192.png">
+
+<link rel="manifest" href="/assets/site.webmanifest">
+
+
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+
+
+
+
+<link rel="preload" href="/assets/img/swipe.svg" as="image" id="_hrefSwipeSVG">
+
+
+  
+  <link rel="dns-prefetch" href="/assets/bower_components/katex/dist/katex.min.css" id="_katexPreload">
+  <noscript><link rel="stylesheet" href="/assets/bower_components/katex/dist/katex.min.css"></noscript>
+
+
+
+
+
+<script>!function(e,t){"use strict";function n(e,t,n,o){e.addEventListener?e.addEventListener(t,n,o):e.attachEvent?e.attachEvent("on"+t,n):e["on"+t]=n}e.loadJS=function(e,o){var r=t.createElement("script");r.src=e,o&&n(r,"load",o,{once:!0});var a=t.scripts[0];return a.parentNode.insertBefore(r,a),r},e._loaded=!1,e.loadJSDeferred=function(o,r){function a(){e._loaded=!0,r&&n(c,"load",r,{once:!0});var o=t.scripts[0];o.parentNode.insertBefore(c,o)}var c=t.createElement("script");return c.src=o,e._loaded?a():n(e,"load",a,{once:!0}),c},e.setRel=e.setRelStylesheet=function(e){function o(){this.rel="stylesheet"}n(t.getElementById(e),"load",o,{once:!0})}}(window,document);
+!function(a){"use strict";var b=function(b,c,d){function e(a){return h.body?a():void setTimeout(function(){e(a)})}function f(){i.addEventListener&&i.removeEventListener("load",f),i.media=d||"all"}var g,h=a.document,i=h.createElement("link");if(c)g=c;else{var j=(h.body||h.getElementsByTagName("head")[0]).childNodes;g=j[j.length-1]}var k=h.styleSheets;i.rel="stylesheet",i.href=b,i.media="only x",e(function(){g.parentNode.insertBefore(i,c?g:g.nextSibling)});var l=function(a){for(var b=i.href,c=k.length;c--;)if(k[c].href===b)return a();setTimeout(function(){l(a)})};return i.addEventListener&&i.addEventListener("load",f),i.onloadcssdefined=l,l(f),i};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);
+!function(a){if(a.loadCSS){var b=loadCSS.relpreload={};if(b.support=function(){try{return a.document.createElement("link").relList.supports("preload")}catch(b){return!1}},b.poly=function(){for(var b=a.document.getElementsByTagName("link"),c=0;c<b.length;c++){var d=b[c];"preload"===d.rel&&"style"===d.getAttribute("as")&&(a.loadCSS(d.href,d,d.getAttribute("media")),d.rel=null)}},!b.support()){b.poly();var c=a.setInterval(b.poly,300);a.addEventListener&&a.addEventListener("load",function(){b.poly(),a.clearInterval(c)}),a.attachEvent&&a.attachEvent("onload",function(){a.clearInterval(c)})}}}(this);
+!function(w) {
+  w._baseURL = '/';
+  w._publicPath = '/assets/js/';
+  w._noPushState = false;
+  w._noDrawer = false;
+  w._noNavbar = false;
+  w._noToc = false;
+  w._noSearch = false;
+}(window);
+</script>
+
+
+
+<!--[if gt IE 8]><!---->
+
+  
+
+
+
+
+<link rel="stylesheet" href="/assets/css/hydejack-9.0.4.css" id="_stylePreload">
+<link rel="stylesheet" href="/assets/icomoon/style.css" id="_iconsPreload">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:700%7CNoto+Sans:400,400i,700,700i&display=swap" id="_fontsPreload">
+
+
+
+  <style id="_pageStyle">
+
+html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79,177,186,0.5);--accent-color-darkened: #409ba3;--theme-color: rgb(1,1,1)}
+
+</style>
+
+
+<!--<![endif]-->
+
+
+<!--
+Code used for embedding Gumroad on the Hydejack Site. 
+Left here for reference, feel free to delete.
+-->
+<link rel="dns-prefetch" href="https://assets.gumroad.com">
+<script type="module">
+  let p;
+  const promisify = f => x => new Promise(r => f(x).addEventListener('load', r));
+  const loadJS = promisify(window.loadJS);
+  document.querySelector('hy-push-state').addEventListener('load', () => {
+    const io = new IntersectionObserver(async (entries) => {
+      if (entries.some(x => x.isIntersecting)) {
+        p = p || loadJS('https://gumroad.com/js/gumroad-embed.js');
+        await p;
+        if (!window.GumroadEmbed) {
+          await new Promise(function check1(res) {
+            if ('createGumroadEmbed' in window) res(window.createGumroadEmbed());
+            else setTimeout(() => check1(res), 200);
+          });
+        }
+        await new Promise(function check2(res) {
+          if ('GumroadEmbed' in window) res(GumroadEmbed.reload());
+          else setTimeout(() => check2(res), 200);
+        });
+      }
+    }, { rootMargin: '1440px' });
+    document.querySelectorAll('.gumroad-product-embed').forEach(el => io.observe(el));
+  });
+</script>
+<script type="module">
+  let p;
+  const promisify = f => x => new Promise(r => f(x).addEventListener('load', r));
+  const loadJS = promisify(window.loadJS);
+  document.querySelector('hy-push-state').addEventListener('load', () => {
+    const io = new IntersectionObserver(async (entries) => {
+      if (entries.some(x => x.isIntersecting)) {
+        p = p || loadJS('https://gumroad.com/js/gumroad.js');
+        await p;
+        if (!window.GumroadOverlay) {
+          await new Promise(function check(res) {
+            if ('createGumroadOverlay' in window) res(window.createGumroadOverlay());
+            else setTimeout(() => check(res), 200);
+          });
+        }
+      }
+    }, { rootMargin: '300px' });
+    document.querySelectorAll('.gumroad-button').forEach(el => io.observe(el));
+  });
+</script>
+
+
+</head>
+
+<body class="dark-mode no-break-layout">
+  
+
+
+<hy-push-state
+  id="_pushState"
+  replace-selector="#_main"
+  link-selector="a[href]:not([href^='/assets/']):not(.external):not(.no-push-state)"
+  script-selector="script"
+  duration="500"
+  hashchange
+>
+  
+  <div id="_navbar" class="navbar fixed-top">
+  <div class="content">
+    <span class="sr-only">Jump to:</span>
+    <div class="nav-btn-bar">
+      <a id="_menu" class="nav-btn no-hover" href="#_drawer--opened">
+        <span class="sr-only">Navigation</span>
+        <span class="icon-menu"></span>
+      </a>
+      <div class="nav-span"></div>
+    </div>
+  </div>
+</div>
+<hr class="sr-only" hidden />
+
+  <main
+  id="_main"
+  class="content layout-post"
+  role="main"
+>
+  
+
+
+
+
+
+<article id="post-archive-weather-other-Weather-Maps" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      
+        Wetterzentrale TopKarten download
+      
+    </h1>
+
+    <div class="post-date">
+      
+      <time datetime="2019-12-20T00:00:00+01:00">20 Dec 2019</time>
+      
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+in <a href="/archive/" class="flip-title">Archive</a> / <span>Weather</span> / <span>Other</span>
+
+      
+
+
+
+
+
+
+
+
+
+on <span>Bash</span>, <span>Java</span>, <span>Python</span>, <span>Jython</span>
+
+    </div>
+
+    
+    
+
+    
+
+
+
+  <div class="hr pb0"></div>
+
+
+  </header>
+
+  
+    <p>Simple bash scripts to download the wetterzentrale top karten of GFS and ECMWF for Europe
+<a href="https://github.com/emryslda/Wetterzentrale_TopKarten_download">Github repository</a></p>
+
+<p>In order to download the latest available pictures simply run:</p>
+
+<figure class="highlight"><pre><code class="language-linenos" data-lang="linenos">./dwetter -m GFS,ECM </code></pre></figure>
+
+<p>download the following codes:</p>
+<p></p>
+<p>the <a href="https://github.com/emryslda/Wetterzentrale_TopKarten_download/blob/master/dwetter"><em>dwetter.sh</em></a> file contains:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#/bin/bash</span>
+
+<span class="k">while </span><span class="nb">test</span> <span class="nv">$# </span><span class="nt">-gt</span> 0<span class="p">;</span> <span class="k">do
+  case</span> <span class="s2">"</span><span class="nv">$1</span><span class="s2">"</span> <span class="k">in</span>
+    <span class="nt">-h</span><span class="p">|</span><span class="nt">--help</span><span class="p">)</span>
+      <span class="nb">echo</span> <span class="s2">"</span><span class="nv">$Wetterzentrale</span><span class="s2"> images download"</span>
+      <span class="nb">echo</span> <span class="s2">" "</span>
+      <span class="nb">echo</span> <span class="s2">"</span><span class="nv">$package</span><span class="s2"> [options] application [arguments]"</span>
+      <span class="nb">echo</span> <span class="s2">" "</span>
+      <span class="nb">echo</span> <span class="s2">"options:"</span>
+      <span class="nb">echo</span> <span class="s2">"-h, --help                show brief help"</span>
+      <span class="nb">echo</span> <span class="s2">"-m, --model=ECM(ECMWF),GFS,..      specify the model to download"</span>
+      <span class="nb">echo</span> <span class="s2">"-d, --domain=DOM1,DOM2,...	      specify the domain of the model"</span> 
+      <span class="nb">echo</span> <span class="s2">"-o, --output-dir=DIR      specify a directory to store output in"</span>
+      <span class="nb">exit </span>0
+      <span class="p">;;</span>
+    <span class="nt">-d</span><span class="p">)</span>
+      <span class="nb">shift
+      </span><span class="k">if </span><span class="nb">test</span> <span class="nv">$# </span><span class="nt">-gt</span> 0<span class="p">;</span> <span class="k">then
+        </span><span class="nb">export </span><span class="nv">DOMAIN</span><span class="o">=</span><span class="nv">$1</span>
+      <span class="k">else
+        </span><span class="nb">echo</span> <span class="s2">"no domain specified"</span>
+        <span class="nb">exit </span>1
+      <span class="k">fi</span>
+      <span class="p">;;</span>
+    <span class="nt">-m</span><span class="k">*</span><span class="p">)</span>
+      <span class="nb">shift
+      </span><span class="k">if </span><span class="nb">test</span> <span class="nv">$# </span><span class="nt">-gt</span> 0<span class="p">;</span> <span class="k">then
+        </span><span class="nb">export </span><span class="nv">PROCESS</span><span class="o">=</span><span class="nv">$1</span>
+	<span class="k">for </span>i <span class="k">in</span> <span class="si">$(</span><span class="nb">echo</span> <span class="nv">$PROCESS</span> | <span class="nb">sed</span> <span class="s2">"s/,/ /g"</span><span class="si">)</span>
+	<span class="k">do
+        </span>bash model.sh <span class="nv">$i</span>
+    	<span class="c"># call your procedure/other scripts here below</span>
+    	<span class="nb">echo</span> <span class="s2">"</span><span class="nv">$i</span><span class="s2">"</span>
+	<span class="k">done
+      else
+        </span><span class="nb">echo</span> <span class="s2">"no model specified"</span>
+        <span class="nb">exit </span>1
+      <span class="k">fi
+      </span><span class="nb">shift</span>
+      <span class="p">;;</span>
+    <span class="nt">--model</span><span class="k">*</span><span class="p">)</span>
+      
+      <span class="p">;;</span>
+    <span class="nt">-o</span><span class="p">)</span>
+      <span class="nb">shift
+      </span><span class="k">if </span><span class="nb">test</span> <span class="nv">$# </span><span class="nt">-gt</span> 0<span class="p">;</span> <span class="k">then
+        </span><span class="nb">export </span><span class="nv">OUTPUT</span><span class="o">=</span><span class="nv">$1</span>
+      <span class="k">else
+        </span><span class="nb">echo</span> <span class="s2">"no output dir specified"</span>
+        <span class="nb">exit </span>1
+      <span class="k">fi
+      </span><span class="nb">shift</span>
+      <span class="p">;;</span>
+    <span class="nt">--output-dir</span><span class="k">*</span><span class="p">)</span>
+      <span class="nb">export </span><span class="nv">OUTPUT</span><span class="o">=</span><span class="sb">`</span><span class="nb">echo</span> <span class="nv">$1</span> | <span class="nb">sed</span> <span class="nt">-e</span> <span class="s1">'s/^[^=]*=//g'</span><span class="sb">`</span>
+      <span class="nb">shift</span>
+      <span class="p">;;</span>
+    <span class="k">*</span><span class="p">)</span>
+      <span class="nb">break</span>
+      <span class="p">;;</span>
+  <span class="k">esac</span>
+<span class="k">done</span>
+</code></pre></div></div>
+<p></p>
+<p>the <a href="https://github.com/emryslda/Wetterzentrale_TopKarten_download/blob/master/model.sh"><em>model.sh</em></a> file contains:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#/bin/bash</span>
+
+<span class="nv">WD</span><span class="o">=</span><span class="s2">"</span><span class="si">$(</span><span class="nb">pwd</span><span class="si">)</span><span class="s2">"</span>
+<span class="nv">WD</span><span class="o">=</span><span class="s2">"</span><span class="k">${</span><span class="nv">WD</span><span class="k">}</span><span class="s2">/"</span>
+<span class="nb">cd</span> <span class="k">${</span><span class="nv">WD</span><span class="k">}</span>
+<span class="nb">mkdir </span>MAPS
+<span class="nv">WD</span><span class="o">=</span><span class="s2">"</span><span class="k">${</span><span class="nv">WD</span><span class="k">}</span><span class="s2">MAPS/"</span>
+<span class="nv">model</span><span class="o">=</span><span class="nv">$1</span>
+<span class="nv">domain</span><span class="o">=</span>1
+<span class="nb">echo</span> <span class="nv">$1</span>
+
+<span class="k">if</span> <span class="o">[</span> <span class="nv">$1</span> <span class="o">==</span> GFS <span class="o">]</span><span class="p">;</span> <span class="k">then	
+	</span><span class="nv">nstep</span><span class="o">=</span>3
+	<span class="nv">hour_int</span><span class="o">=(</span> 00 06 12 18 <span class="o">)</span>
+
+<span class="k">elif</span> <span class="o">[</span> <span class="nv">$1</span> <span class="o">==</span> ECM <span class="o">]</span><span class="p">;</span> <span class="k">then
+	</span><span class="nv">model</span><span class="o">=</span>ECM
+	<span class="nv">nstep</span><span class="o">=</span>24 <span class="c">#step of charts</span>
+        <span class="nv">hour_int</span><span class="o">=(</span> 00 12 <span class="o">)</span>
+<span class="k">fi
+</span><span class="nv">nfinal</span><span class="o">=</span>144
+
+<span class="nb">cd</span> <span class="k">${</span><span class="nv">WD</span><span class="k">}</span>
+<span class="nb">rm</span> <span class="nt">-r</span> <span class="k">${</span><span class="nv">model</span><span class="k">}</span>
+<span class="nb">mkdir</span> <span class="k">${</span><span class="nv">model</span><span class="k">}</span>
+<span class="nb">cd</span> <span class="k">${</span><span class="nv">model</span><span class="k">}</span>
+
+<span class="c">##################### END USER #################</span>
+<span class="k">for </span><span class="nb">time </span><span class="k">in</span> <span class="s2">"</span><span class="k">${</span><span class="nv">hour_int</span><span class="p">[@]</span><span class="k">}</span><span class="s2">"</span><span class="p">;</span>
+	<span class="k">do
+        </span><span class="nb">echo</span> <span class="k">${</span><span class="nv">time</span><span class="k">}</span>
+	<span class="nb">mkdir</span> <span class="k">${</span><span class="nv">time</span><span class="k">}</span>
+
+	<span class="nb">cd</span> <span class="s2">"</span><span class="k">${</span><span class="nv">WD</span><span class="k">}${</span><span class="nv">model</span><span class="k">}</span><span class="s2">/</span><span class="k">${</span><span class="nv">time</span><span class="k">}</span><span class="s2">"</span>
+
+	<span class="k">for </span>hour <span class="k">in</span> <span class="sb">`</span><span class="nb">seq </span>0 <span class="k">${</span><span class="nv">nstep</span><span class="k">}</span> <span class="k">${</span><span class="nv">nfinal</span><span class="k">}</span><span class="sb">`</span>
+		<span class="k">do    
+  		</span><span class="nb">echo</span> <span class="s2">"Downloading hour..."</span><span class="nv">$hour</span> 
+		<span class="nv">url</span><span class="o">=</span><span class="s2">"www.wetterzentrale.de/maps/</span><span class="k">${</span><span class="nv">model</span><span class="k">}</span><span class="s2">OPEU</span><span class="k">${</span><span class="nv">time</span><span class="k">}</span><span class="s2">_</span><span class="k">${</span><span class="nv">hour</span><span class="k">}</span><span class="s2">_</span><span class="k">${</span><span class="nv">domain</span><span class="k">}</span><span class="s2">.png"</span>
+		<span class="nb">echo</span> <span class="k">${</span><span class="nv">url</span><span class="k">}</span>
+		wget <span class="k">${</span><span class="nv">url</span><span class="k">}</span>
+	<span class="k">done
+	</span><span class="nb">cd</span> <span class="s2">"</span><span class="k">${</span><span class="nv">WD</span><span class="k">}${</span><span class="nv">model</span><span class="k">}</span><span class="s2">/"</span>
+<span class="k">done
+
+</span><span class="nb">cd</span> <span class="s2">"</span><span class="k">${</span><span class="nv">WD</span><span class="k">}</span><span class="s2">
+</span></code></pre></div></div>
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async="" defer="" src="https://buttons.github.io/buttons.js"></script>
+
+<!-- Place this tag where you want the button to render. -->
+<!-- Place this tag where you want the button to render. -->
+<p><a class="github-button" href="https://github.com/emryslda" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" aria-label="Follow @emryslda on GitHub">Follow @emryslda</a></p>
+
+  
+</article>
+
+
+<hr class="dingbat related" />
+
+
+
+
+  
+     
+
+
+
+  
+
+  
+  
+
+  
+    
+
+
+  <aside class="related mb4" role="complementary">  <h2 class="hr-bottom">Related Posts</h2>  <ul class="related-posts">                  <li class="h4">  <a href="/archive/projects/2020-03-15-COVID19-Italy-Map/" class="flip-title"><span>COVID19 Italy Map</span></a>  <time class="faded fine" datetime="2020-03-15T00:00:00+01:00">15 Mar 2020</time></li>                        <li class="h4">  <a href="/archive/publications/2020-03-05-Multivariate-Prediction-of-PM10-Concentration-by-LSTM-Neural-Networks/" class="flip-title"><span>Multivariate Prediction of PM10 Concentration by LSTM Neural Networks</span></a>  <time class="faded fine" datetime="2020-03-05T00:00:00+01:00">05 Mar 2020</time></li>                        <li class="h4">  <a href="/archive/projects/2019-05-20-HEC-HMS/" class="flip-title"><span>HEC-HMS Modeling</span></a>  <time class="faded fine" datetime="2019-05-20T00:00:00+02:00">20 May 2019</time></li>            </ul></aside>
+
+  
+
+  
+  
+
+  
+    
+
+  
+
+
+  
+<footer class="content" role="contentinfo">
+  <hr/>
+  
+    <p><small class="copyright">© 2020. All rights reserved.
+</small></p>
+  
+  
+    <nav class="legal"><small>
+    
+      
+      <a class="heading flip-title" href="/LICENSE/">LICENSE</a>
+      |
+    
+      
+      <a class="heading flip-title" href="/NOTICE/">NOTICE</a>
+      |
+    
+      
+      <a class="heading flip-title" href="/CHANGELOG/">CHANGELOG</a>
+      
+    
+    </small></nav>
+  
+    <p><small>Powered by <a class="external" href="https://hydejack.com/">Hydejack</a> v<span id="_version">9.0.4</span></small></p>
+  <hr class="sr-only"/>
+</footer>
+
+
+</main>
+
+  <hy-drawer
+  id="_drawer"
+  class=""
+  side="left"
+  threshold="10"
+  noscroll
+  
+>
+  <header id="_sidebar" class="sidebar" role="banner">
+    
+
+
+
+
+<div class="sidebar-bg sidebar-overlay" style="background-color:rgb(1,1,1);background-image:url(/assets/img/bg.JPG)"></div>
+
+    <div class="sidebar-sticky">
+  <div class="sidebar-about">
+    
+      <a class="no-hover" href="/" tabindex="-1">
+        <img src="/assets/img/pr.jpg" class="avatar" alt="Di Antonio Ludovico" width="120" height="120" loading="lazy" />
+      </a>
+    
+    <a class="sidebar-title" href="/"><h2 class="h1">Di Antonio Ludovico</h2></a>
+    
+    
+      <p class="">
+        “Hike More, Worry Less”
+
+      </p>
+    
+  </div>
+
+  <nav class="sidebar-nav heading" role="navigation">
+    <span class="sr-only">Navigation:</span>
+<ul>
+  
+    
+      
+      <li>
+        <a
+          id="_drawer--opened"
+          href="/weather/"
+          class="sidebar-nav-item"
+          
+        >
+          Weather
+        </a>
+      </li>
+    
+      
+      <li>
+        <a
+          
+          href="/publications/"
+          class="sidebar-nav-item"
+          
+        >
+          Publications
+        </a>
+      </li>
+    
+      
+      <li>
+        <a
+          
+          href="/projects/"
+          class="sidebar-nav-item"
+          
+        >
+          Projects
+        </a>
+      </li>
+    
+      
+      <li>
+        <a
+          
+          href="/archive/"
+          class="sidebar-nav-item"
+          
+        >
+          Archive
+        </a>
+      </li>
+    
+      
+      <li>
+        <a
+          
+          href="/about/"
+          class="sidebar-nav-item"
+          
+        >
+          About
+        </a>
+      </li>
+    
+  
+</ul>
+
+  </nav>
+
+  
+  <div class="sidebar-social">
+    <span class="sr-only">Social:</span>
+<ul>
+  
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://github.com/emryslda" title="GitHub" class="no-mark-external">
+      <span class="icon-github"></span>
+      <span class="sr-only">GitHub</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="mailto:ludovico.diantonio@gmail.com" title="Email" class="no-mark-external">
+      <span class="icon-mail"></span>
+      <span class="sr-only">Email</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://www.researchgate.net/profile/Ludovico_Di_Antonio" title="Researchgate" class="no-mark-external">
+      <span class="icon-researchgate"></span>
+      <span class="sr-only">Researchgate</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://instagram.com/ldaemrys" title="Instagram" class="no-mark-external">
+      <span class="icon-instagram"></span>
+      <span class="sr-only">Instagram</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://www.linkedin.com/in/ludovicodiantonio" title="LinkedIn" class="no-mark-external">
+      <span class="icon-linkedin"></span>
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  </li>
+
+
+    
+  
+</ul>
+
+  </div>
+</div>
+  </header>
+</hy-drawer>
+<hr class="sr-only" hidden />
+
+</hy-push-state>
+
+
+  <!--[if gt IE 10]><!---->
+  <script nomodule>!function(){var e=document.createElement("script");if(!("noModule"in e)&&"onbeforeload"in e){var t=!1;document.addEventListener("beforeload",function(n){if(n.target===e)t=!0;else if(!n.target.hasAttribute("nomodule")||!t)return;n.preventDefault()},!0),e.type="module",e.src=".",document.head.appendChild(e),e.remove()}}();
+</script>
+  <script src="/assets/js/hydejack-9.0.4.js" type="module"></script>
+  <script src="/assets/js/LEGACY-hydejack-9.0.4.js" nomodule defer></script>
+  
+
+  
+
+<!--<![endif]-->
+  <!--
+Code for integrating CloudFlare's email protection with Hydejack's single page app loading.
+-->
+<script>
+  document.getElementById('_pushState').addEventListener('hy-push-state-after', function (e) {
+    function e(e){
+      (console.error?console.error:console.log).call(console,e)
+    }
+
+    function t(e){
+      return l.innerHTML='<a href="'+e.replace(/"/g,"&quot;")+'"></a>',l.childNodes[0].getAttribute("href")
+    }
+
+    function r(e,t){
+      var r=e.substr(t,2);return parseInt(r,16)
+    }
+
+    function n(e,n){
+      for(var o="",c=r(e,n),a=n+2;a<e.length;a+=2){
+        var l=r(e,a)^c;
+        o+=String.fromCharCode(l)
+      }
+      return t(o)
+    }
+
+    var o="/cdn-cgi/l/email-protection#",
+        c=".__cf_email__",
+        a="data-cfemail",
+        l=document.createElement("div");
+
+    !function(){
+      for(var t=document.getElementsByTagName("a"),r=0;r<t.length;r++)
+        try{
+          var c=t[r],a=c.href.indexOf(o);
+          a>-1&&(c.href="mailto:"+n(c.href,a+o.length))
+        }catch(t){
+          e(t)
+        }
+    }(),
+    function(){
+      for(var t=document.querySelectorAll(c),r=0;r<t.length;r++)
+        try{
+          var o=t[r],l=n(o.getAttribute(a),0),i=document.createTextNode(l);
+          o.parentNode.replaceChild(i,o)
+        }catch(t){
+          e(t)
+        }
+    }()
+  });
+</script>
+
+
+
+
+
+<div hidden>
+  
+  <h2 class="sr-only">Templates (for web app):</h2>
+
+  <template id="_animation-template">
+  <div class="animation-main fixed-top">
+    <div class="content">
+      <div class="page"></div>
+    </div>
+  </div>
+</template>
+
+  <template id="_loading-template">
+  <div class="loading nav-btn fr">
+    <span class="sr-only">Loading…</span>
+    <span class="icon-cog"></span>
+  </div>
+</template>
+
+  <template id="_error-template">
+  <div class="page">
+    <h1 class="page-title">Error</h1>
+    
+    
+    <p class="lead">
+      Sorry, an error occurred while loading <a class="this-link" href=""></a>.
+
+    </p>
+  </div>
+</template>
+
+  <template id="_forward-template">
+  <button id="_forward" class="forward nav-btn no-hover">
+    <span class="sr-only">Forward</span>
+    <span class="icon-arrow-right2"></span>
+  </button>
+</template>
+
+  <template id="_back-template">
+  <button id="_back" class="back nav-btn no-hover">
+    <span class="sr-only">Back</span>
+    <span class="icon-arrow-left2"></span>
+  </button>
+</template>
+
+  <template id="_permalink-template">
+  <a href="#" class="permalink">
+    <span class="sr-only">Permalink</span>
+    <span class="content-hash"></span>
+  </a>
+</template>
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-12-23T13:43:02+01:00</updated><id>/feed.xml</id><title type="html">Di Antonio Ludovico</title><subtitle>&quot;Hike More, Worry Less&quot;
+</subtitle><author><name>&lt;Ludovico&gt; &lt;Di Antonio&gt;</name><email>&lt;ludovico.diantonio@gmail.com&gt;</email></author><entry><title type="html">COVID19 Italy Map</title><link href="/archive/projects/2020-03-15-COVID19-Italy-Map/" rel="alternate" type="text/html" title="COVID19 Italy Map" /><published>2020-03-15T00:00:00+01:00</published><updated>2020-12-23T10:16:41+01:00</updated><id>/archive/projects/COVID19%20Italy%20Map</id><content type="html" xml:base="/archive/projects/2020-03-15-COVID19-Italy-Map/">&lt;p&gt;&lt;strong&gt;LAST UPDATE 15-03-2020 17:00&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;iframe src=&quot;/img/covidmap.html&quot; sandbox=&quot;allow-same-origin allow-scripts&quot; width=&quot;1280&quot; height=&quot;820&quot; scrolling=&quot;no&quot; seamless=&quot;seamless&quot; align=&quot;left&quot; frameborder=&quot;0&quot;&gt;
+&lt;/iframe&gt;
+
+&lt;p&gt;Data taken at: &lt;strong&gt;&lt;a href=&quot;https://github.com/pcm-dpc/COVID-19&quot;&gt;https://github.com/pcm-dpc/COVID-19&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;iframe src=&quot;/img/covid.html&quot; sandbox=&quot;allow-same-origin allow-scripts&quot; width=&quot;150%&quot; height=&quot;1000&quot; scrolling=&quot;no&quot; seamless=&quot;seamless&quot; frameborder=&quot;0&quot;&gt;
+&lt;/iframe&gt;
+
+&lt;p&gt;Data taken at: &lt;strong&gt;&lt;a href=&quot;http://www.salute.gov.it&quot;&gt;http://www.salute.gov.it&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;iframe src=&quot;/img/covid19.html&quot; sandbox=&quot;allow-same-origin allow-scripts&quot; width=&quot;160%&quot; height=&quot;760&quot; scrolling=&quot;no&quot; seamless=&quot;seamless&quot; frameborder=&quot;0&quot;&gt;
+&lt;/iframe&gt;
+
+&lt;p&gt;Data taken at: &lt;strong&gt;&lt;a href=&quot;https://github.com/pcm-dpc/COVID-19&quot;&gt;https://github.com/pcm-dpc/COVID-19&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Number of deaths per region time series&lt;/p&gt;
+
+&lt;iframe src=&quot;/img/covid19reg.html&quot; sandbox=&quot;allow-same-origin allow-scripts&quot; width=&quot;150%&quot; height=&quot;760&quot; scrolling=&quot;no&quot; seamless=&quot;seamless&quot; frameborder=&quot;0&quot;&gt;
+&lt;/iframe&gt;
+
+&lt;p&gt;Data taken at: &lt;strong&gt;&lt;a href=&quot;https://github.com/pcm-dpc/COVID-19&quot;&gt;https://github.com/pcm-dpc/COVID-19&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Number of deaths per region and other informations:&lt;/p&gt;
+
+&lt;iframe src=&quot;/img/covidmapde.html&quot; sandbox=&quot;allow-same-origin allow-scripts&quot; width=&quot;150%&quot; height=&quot;760&quot; scrolling=&quot;no&quot; seamless=&quot;seamless&quot; frameborder=&quot;0&quot;&gt;
+&lt;/iframe&gt;
+
+&lt;p&gt;Data taken at: &lt;strong&gt;&lt;a href=&quot;https://github.com/pcm-dpc/COVID-19&quot;&gt;https://github.com/pcm-dpc/COVID-19&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;!-- Place this tag in your head or just before your close body tag. --&gt;
+&lt;script async=&quot;&quot; defer=&quot;&quot; src=&quot;https://buttons.github.io/buttons.js&quot;&gt;&lt;/script&gt;
+
+&lt;!-- Place this tag where you want the button to render. --&gt;
+&lt;!-- Place this tag where you want the button to render. --&gt;
+&lt;p&gt;&lt;a class=&quot;github-button&quot; href=&quot;https://github.com/emryslda&quot; data-color-scheme=&quot;no-preference: light; light: light; dark: dark;&quot; data-size=&quot;large&quot; aria-label=&quot;Follow @emryslda on GitHub&quot;&gt;Follow @emryslda&lt;/a&gt;&lt;/p&gt;</content><author><name>&lt;Ludovico&gt; &lt;Di Antonio&gt;</name><email>&lt;ludovico.diantonio@gmail.com&gt;</email></author><category term="archive" /><category term="Projects" /><category term="Maps" /><category term="COVID" /><summary type="html">LAST UPDATE 15-03-2020 17:00</summary></entry><entry><title type="html">Multivariate Prediction of PM10 Concentration by LSTM Neural Networks</title><link href="/archive/publications/2020-03-05-Multivariate-Prediction-of-PM10-Concentration-by-LSTM-Neural-Networks/" rel="alternate" type="text/html" title="Multivariate Prediction of PM10 Concentration by LSTM Neural Networks" /><published>2020-03-05T00:00:00+01:00</published><updated>2020-12-23T10:17:35+01:00</updated><id>/archive/publications/Multivariate%20Prediction%20of%20PM10%20Concentration%20by%20LSTM%20Neural%20Networks</id><content type="html" xml:base="/archive/publications/2020-03-05-Multivariate-Prediction-of-PM10-Concentration-by-LSTM-Neural-Networks/">&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;Multivariate Prediction of PM10 Concentration by LSTM Neural Networks&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Conference Period:&lt;/strong&gt; &lt;em&gt;December 2019&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Conference:&lt;/strong&gt; &lt;em&gt;2019 Photonics &amp;amp; Electromagnetics Research Symposium - Fall (PIERS - Fall)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;DOI:&lt;/strong&gt; 10.1109/PIERS-Fall48861.2019.9021929&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Authors&lt;/strong&gt;: Ludovico Di Antonio, A. Rosato, V. Colaiuda, A. Lombardi, B. Tomassetti and Massimo Panella&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://ieeexplore.ieee.org/document/9021929&quot;&gt;IEEE XPLORE&lt;/a&gt;&lt;/strong&gt; &lt;strong&gt;&lt;a href=&quot;https://www.researchgate.net/publication/339767769_Multivariate_Prediction_of_PM_10_Concentration_by_LSTM_Neural_Networks&quot;&gt;ResearchGate&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;!-- Place this tag in your head or just before your close body tag. --&gt;
+&lt;script async=&quot;&quot; defer=&quot;&quot; src=&quot;https://buttons.github.io/buttons.js&quot;&gt;&lt;/script&gt;
+
+&lt;!-- Place this tag where you want the button to render. --&gt;
+&lt;!-- Place this tag where you want the button to render. --&gt;
+&lt;p&gt;&lt;a class=&quot;github-button&quot; href=&quot;https://github.com/emryslda&quot; data-color-scheme=&quot;no-preference: light; light: light; dark: dark;&quot; data-size=&quot;large&quot; aria-label=&quot;Follow @emryslda on GitHub&quot;&gt;Follow @emryslda&lt;/a&gt;&lt;/p&gt;</content><author><name>&lt;Ludovico&gt; &lt;Di Antonio&gt;</name><email>&lt;ludovico.diantonio@gmail.com&gt;</email></author><category term="archive" /><category term="Publications" /><category term="Neural Networks" /><category term="Environment" /><summary type="html">Title: Multivariate Prediction of PM10 Concentration by LSTM Neural Networks</summary></entry><entry><title type="html">Wetterzentrale TopKarten download</title><link href="/archive/weather/other/2019-12-20-Weather-Maps/" rel="alternate" type="text/html" title="Wetterzentrale TopKarten download" /><published>2019-12-20T00:00:00+01:00</published><updated>2020-12-23T10:19:07+01:00</updated><id>/archive/weather/other/Weather-Maps</id><content type="html" xml:base="/archive/weather/other/2019-12-20-Weather-Maps/">&lt;p&gt;Simple bash scripts to download the wetterzentrale top karten of GFS and ECMWF for Europe
+&lt;a href=&quot;https://github.com/emryslda/Wetterzentrale_TopKarten_download&quot;&gt;Github repository&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In order to download the latest available pictures simply run:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-linenos&quot; data-lang=&quot;linenos&quot;&gt;./dwetter -m GFS,ECM &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;download the following codes:&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;the &lt;a href=&quot;https://github.com/emryslda/Wetterzentrale_TopKarten_download/blob/master/dwetter&quot;&gt;&lt;em&gt;dwetter.sh&lt;/em&gt;&lt;/a&gt; file contains:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#/bin/bash&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;while &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;test&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$# &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;-gt&lt;/span&gt; 0&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do
+  case&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;-h&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--help&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$Wetterzentrale&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; images download&quot;&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot; &quot;&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$package&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; [options] application [arguments]&quot;&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot; &quot;&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;options:&quot;&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;-h, --help                show brief help&quot;&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;-m, --model=ECM(ECMWF),GFS,..      specify the model to download&quot;&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;-d, --domain=DOM1,DOM2,...	      specify the domain of the model&quot;&lt;/span&gt; 
+      &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;-o, --output-dir=DIR      specify a directory to store output in&quot;&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;exit &lt;/span&gt;0
+      &lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;shift
+      &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;test&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$# &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;-gt&lt;/span&gt; 0&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then
+        &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;DOMAIN&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;else
+        &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;no domain specified&quot;&lt;/span&gt;
+        &lt;span class=&quot;nb&quot;&gt;exit &lt;/span&gt;1
+      &lt;span class=&quot;k&quot;&gt;fi&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;shift
+      &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;test&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$# &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;-gt&lt;/span&gt; 0&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then
+        &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PROCESS&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;i &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$PROCESS&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;sed&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;s/,/ /g&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;do
+        &lt;/span&gt;bash model.sh &lt;span class=&quot;nv&quot;&gt;$i&lt;/span&gt;
+    	&lt;span class=&quot;c&quot;&gt;# call your procedure/other scripts here below&lt;/span&gt;
+    	&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$i&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;done
+      else
+        &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;no model specified&quot;&lt;/span&gt;
+        &lt;span class=&quot;nb&quot;&gt;exit &lt;/span&gt;1
+      &lt;span class=&quot;k&quot;&gt;fi
+      &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;shift&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;--model&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      
+      &lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;shift
+      &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;test&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$# &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;-gt&lt;/span&gt; 0&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then
+        &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;OUTPUT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;else
+        &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;no output dir specified&quot;&lt;/span&gt;
+        &lt;span class=&quot;nb&quot;&gt;exit &lt;/span&gt;1
+      &lt;span class=&quot;k&quot;&gt;fi
+      &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;shift&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;--output-dir&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;OUTPUT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;sed&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'s/^[^=]*=//g'&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;shift&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;break&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;esac&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;done&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;the &lt;a href=&quot;https://github.com/emryslda/Wetterzentrale_TopKarten_download/blob/master/model.sh&quot;&gt;&lt;em&gt;model.sh&lt;/em&gt;&lt;/a&gt; file contains:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#/bin/bash&lt;/span&gt;
+
+&lt;span class=&quot;nv&quot;&gt;WD&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;pwd&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;WD&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;WD&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;/&quot;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;WD&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;mkdir &lt;/span&gt;MAPS
+&lt;span class=&quot;nv&quot;&gt;WD&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;WD&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;MAPS/&quot;&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;domain&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;1
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; GFS &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then	
+	&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;nstep&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;3
+	&lt;span class=&quot;nv&quot;&gt;hour_int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=(&lt;/span&gt; 00 06 12 18 &lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;elif&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; ECM &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then
+	&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;ECM
+	&lt;span class=&quot;nv&quot;&gt;nstep&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;24 &lt;span class=&quot;c&quot;&gt;#step of charts&lt;/span&gt;
+        &lt;span class=&quot;nv&quot;&gt;hour_int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=(&lt;/span&gt; 00 12 &lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;fi
+&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;nfinal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;144
+
+&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;WD&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-r&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;mkdir&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;##################### END USER #################&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;time &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;hour_int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[@]&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;do
+        &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;
+	&lt;span class=&quot;nb&quot;&gt;mkdir&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;
+
+	&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;WD&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+
+	&lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;hour &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;seq &lt;/span&gt;0 &lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;nstep&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;nfinal&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;do    
+  		&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Downloading hour...&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$hour&lt;/span&gt; 
+		&lt;span class=&quot;nv&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;www.wetterzentrale.de/maps/&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;OPEU&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;hour&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;domain&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.png&quot;&lt;/span&gt;
+		&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;
+		wget &lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;done
+	&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;WD&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;/&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;done
+
+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;WD&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;!-- Place this tag in your head or just before your close body tag. --&gt;
+&lt;script async=&quot;&quot; defer=&quot;&quot; src=&quot;https://buttons.github.io/buttons.js&quot;&gt;&lt;/script&gt;
+
+&lt;!-- Place this tag where you want the button to render. --&gt;
+&lt;!-- Place this tag where you want the button to render. --&gt;
+&lt;p&gt;&lt;a class=&quot;github-button&quot; href=&quot;https://github.com/emryslda&quot; data-color-scheme=&quot;no-preference: light; light: light; dark: dark;&quot; data-size=&quot;large&quot; aria-label=&quot;Follow @emryslda on GitHub&quot;&gt;Follow @emryslda&lt;/a&gt;&lt;/p&gt;</content><author><name>&lt;Ludovico&gt; &lt;Di Antonio&gt;</name><email>&lt;ludovico.diantonio@gmail.com&gt;</email></author><category term="archive" /><category term="Weather" /><category term="Other" /><category term="Bash" /><category term="Java" /><category term="Python" /><category term="Jython" /><summary type="html">Simple bash scripts to download the wetterzentrale top karten of GFS and ECMWF for Europe Github repository</summary></entry><entry><title type="html">HEC-HMS Modeling</title><link href="/archive/projects/2019-05-20-HEC-HMS/" rel="alternate" type="text/html" title="HEC-HMS Modeling" /><published>2019-05-20T00:00:00+02:00</published><updated>2020-12-23T10:16:41+01:00</updated><id>/archive/projects/HEC-HMS</id><content type="html" xml:base="/archive/projects/2019-05-20-HEC-HMS/">&lt;p&gt;The &lt;strong&gt;Hydrologic Modeling System&lt;/strong&gt; (&lt;a href=&quot;https://www.hec.usace.army.mil/software/hec-hms/&quot;&gt;HEC-HMS&lt;/a&gt;) is designed to simulate the
+complete  hydrologic  processes  of  watershed  systems.   It  is  a  concentrated
+model written in Java language which is born to simulate the discharge due
+to meteorological forcing. The use of this model from command line is limited, but can be performed. This guide will allow you to run a simulation from Linux terminal using a bash script.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Create the &lt;em&gt;compute.script&lt;/em&gt; file with the following code:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;from hms.model.JythonHms import &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;
+OpenProject&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Project_name&quot;&lt;/span&gt;, &lt;span class=&quot;s2&quot;&gt;&quot;Path_to_project&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+Compute&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Run_name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+Exit&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;1&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;fix the &lt;em&gt;Project_name&lt;/em&gt;, &lt;em&gt;Path_to_project&lt;/em&gt;, &lt;em&gt;Run_name&lt;/em&gt; for your needs.
+Now create a run.sh file with the following code inside:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#Created on 24 Apr 2019 15:45 &lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#I used a simbolic link to /usr/local/bin ---command: &lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# ln -s path/to/hec-hms.sh  /usr/local/bin/hms41 &lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#it lets you run the program from anywhere &lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;PATH_HOME&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/home/username
+&lt;span class=&quot;c&quot;&gt;#change the username with yours&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;HEC_PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$PATH_HOME&lt;/span&gt;/HEC/hec-hms-41
+&lt;span class=&quot;nv&quot;&gt;CP_PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$HEC_PATH&lt;/span&gt;/scripts
+hms41 &lt;span class=&quot;nt&quot;&gt;-s&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$CP_PATH&lt;/span&gt;/compute.script
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Once you have set the model you can run the model from the command line using:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bash run.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;!-- Place this tag in your head or just before your close body tag. --&gt;
+&lt;script async=&quot;&quot; defer=&quot;&quot; src=&quot;https://buttons.github.io/buttons.js&quot;&gt;&lt;/script&gt;
+
+&lt;!-- Place this tag where you want the button to render. --&gt;
+&lt;!-- Place this tag where you want the button to render. --&gt;
+&lt;p&gt;&lt;a class=&quot;github-button&quot; href=&quot;https://github.com/emryslda&quot; data-color-scheme=&quot;no-preference: light; light: light; dark: dark;&quot; data-size=&quot;large&quot; aria-label=&quot;Follow @emryslda on GitHub&quot;&gt;Follow @emryslda&lt;/a&gt;&lt;/p&gt;</content><author><name>&lt;Ludovico&gt; &lt;Di Antonio&gt;</name><email>&lt;ludovico.diantonio@gmail.com&gt;</email></author><category term="archive" /><category term="Projects" /><category term="Java" /><category term="Python" /><category term="Jython" /><summary type="html">The Hydrologic Modeling System (HEC-HMS) is designed to simulate the complete hydrologic processes of watershed systems. It is a concentrated model written in Java language which is born to simulate the discharge due to meteorological forcing. The use of this model from command line is limited, but can be performed. This guide will allow you to run a simulation from Linux terminal using a bash script. Create the compute.script file with the following code:</summary></entry></feed>
