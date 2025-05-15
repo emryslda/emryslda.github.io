@@ -11276,3 +11276,31 @@ body {
 .footer {
   padding: 5rem 0;
 }
+
+.highlight-box {
+  background-color: #fffff; /* Giallo chiaro */
+  padding: 20px;
+  border-left: 5px solid #fbc02d;
+  border-radius: 8px;
+  margin-top: 10px;
+  position: relative;
+}
+
+
+.alert-badge {
+  display: inline-block;
+  background-color: #fbc02d;
+  color: #000;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.highlight-title {
+  font-weight: bold;
+  color: #795548;
+  margin-bottom: 10px;
+}
